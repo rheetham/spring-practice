@@ -20,5 +20,22 @@ Spring Boot makes writing Spring Applications easier.
 
 A JAR file includes Application Code and the Server.
 
-Spring Boor apps can be run standalone.(included embedded server)
+Spring Boot apps can be run standalone.(included embedded server)
 It can be ran from an IDE or the Command Line.
+
+Standard directory structure:
+
+MyApp/
+    mvnw                    If correct version of maven is not found,  
+    mvnw.cmd                it automatically downloads and runs it. 
+    pom.xml                 Maven file 
+    src/                    
+        main/
+            java/           Java source code 
+            resources/      Properties/config used by MyApp
+            webapp/         Web files: JSP, images, css, js, etc.
+        test/               Unit Testing code and Properties
+            java/           
+            resources/
+    target/                 Destination directory for compiled code
+                            Automatically created by Maven.
