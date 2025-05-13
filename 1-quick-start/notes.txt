@@ -1,0 +1,24 @@
+Spring:
+
+Java framework for building Java Applications.
+Provides a large number of helper classes and annotations.
+
+Spring Boot:
+
+Makes it easier to get started with Spring development.
+
+Minimizes amount of manual config.
+Performs automatic configuration based on props files
+and JAR classpath.
+
+Helps to resolve dependency conflicts.(Maven/Gradle)
+
+Provides an embedded HTTP server so that you can get
+started quickly.(Tomcat, Jetty, Undertow)
+
+Spring Boot makes writing Spring Applications easier.
+
+A JAR file includes Application Code and the Server.
+
+Spring Boor apps can be run standalone.(included embedded server)
+It can be ran from an IDE or the Command Line.
