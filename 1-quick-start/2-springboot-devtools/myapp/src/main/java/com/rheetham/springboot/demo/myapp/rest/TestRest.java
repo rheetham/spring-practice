@@ -9,4 +9,9 @@ public class TestRest {
     public String sayHello() {
         return "Hello World!";
     }
+
+    @GetMapping("/forward")
+    public String sayHi() {
+        return "Hi!";
+    }
 }
